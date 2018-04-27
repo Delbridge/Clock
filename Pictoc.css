@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding=0;
+}
+
+
+    html,body{
+        height:100%;
+      }
+
+
+
+.clock{
+    border:6px solid;
+    font-size: 20ex;
+    text-align:center;
+     margin-top: 20%;
+     background-color:#ece6e6;
+}
+
