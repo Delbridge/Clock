@@ -14,19 +14,18 @@ function jazzy(numbers){
     return numbers;
   }
 
+var greeting = document.getElementById("greeting")
+
 if(hours >= 4 && hours <=11 ) {
-document.image.style.backgroundImage= "url('Morning.jpg')"
-    greeting.innerHTML="Hi There";
-    } else if (hours >11 && hours<=14 ) {
-     document.image.style.backgroundImage = "url('Noon.jpg')"
-greeting.innerHTML="Sunshine State";
+      document.body.style.backgroundImage= "url('Morning.jpg')";
+    greeting.innerHTML="Hvthvyvtke";
+    } else if (hours >=11 && hours<=19 ) {
+     document.body.style.backgroundImage = "url('Noon.jpg')";
+    greeting.innerHTML="Sunshine State";
     } else if (hours >= 20 && hours <= 23) {
-    document.image.style.backgroundImage = "url('Night.jpg')"
-     greeting.innerHTML="Hit the hay";
-    } else {
-        document.body.style.background=color;
-    }
-    // document.getElementById("greeting").innerHTML.greeting;
+    document.body.style.backgroundImage = "url('Night.jpg')";
+     greeting.innerHTML="Yomucke";
+    }  
 
 
  }

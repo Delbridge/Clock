@@ -11,10 +11,19 @@
 
 
 .clock{
-    border:6px solid;
+ 
+    -webkit-text-fill-color:#a2afaf;
+
     font-size: 20ex;
     text-align:center;
      margin-top: 20%;
-     background-color:#ece6e6;
+     background-color:#000000;
 }
 
+#greeting{
+    -webkit-text-fill-color: green;
+    font-size:70px;
+ font-style: oblique;
+    text-align:center;
+
+}
